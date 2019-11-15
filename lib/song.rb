@@ -43,9 +43,9 @@ class Song
        song_1 = Song.new
        song_2 = Song.new
        if song_1 == song_2
-         return song_1
+         return true
        else
-         return song_2
+         return false
        end
      end
     
