@@ -45,6 +45,7 @@ class Song
        else
          false
        end
-     end
        return song.name
+     end
+       
    end
