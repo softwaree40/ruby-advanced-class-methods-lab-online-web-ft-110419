@@ -45,4 +45,5 @@ class Song
          end
        return true 
     end
+    blank_space = Song.new 
  end
