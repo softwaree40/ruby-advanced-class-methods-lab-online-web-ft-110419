@@ -41,7 +41,7 @@ class Song
      end
      def self.find_or_create_by_name(name)
        if self.create_by_name(name) == self.find_by_name(name)
-          binding.pry                                                               #invoke method to check if they are equal or not 
+          #binding.pry                                                               #invoke method to check if they are equal or not 
          
       
        end
