@@ -28,8 +28,9 @@ class Song
    def self.create_by_name(name)  #returns a song instance with that name set as its name property and the song being saved into the class variable.
      song = Song.new
      song.name = name
-     song.name
-     @@all << song.name.save
+     song.name.save
+     song
+     @@all << song
      binding.pry
      
    end
