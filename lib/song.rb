@@ -1,7 +1,7 @@
 require 'pry'
 class Song
   attr_accessor :name, :artist_name
-  attr_reader :name 
+  
   @@all = []
       
   def self.new_by_name(name)
@@ -30,7 +30,7 @@ class Song
      song.name = name
      song.name
      song 
-     return self.class.all << song.save
+     return @@all << song.save
      #binding.pry
      
    end
