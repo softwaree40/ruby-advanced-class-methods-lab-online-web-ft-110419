@@ -31,7 +31,7 @@ class Song
      song.name
      song 
      return @@all << song.save
-     #binding.pry
+     binding.pry
      
    end
     
