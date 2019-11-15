@@ -29,7 +29,7 @@ class Song
      song = Song.new
      song.name = name
      song.name
-     @@all << song
+     @@all << song.name.save
      binding.pry
      
    end
