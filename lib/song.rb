@@ -30,8 +30,8 @@ class Song
      song.name = name
      song.name
      song.save
-     @@all << song
-     binding.pry
+     return @@all << song
+     #binding.pry
      
    end
     
