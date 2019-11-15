@@ -25,12 +25,12 @@ class Song
      song 
        
    end
-   def self.create_by_name(name)  #returns a song instance with that name set as its name property and the song being saved into the @@all class variable.
+   def self.create_by_name(name)  #returns a song instance with that name set as its name property and the song being saved into the class variable.
      song = Song.new
      song.name = name
      song.name
      song 
-     return @@all << song.save
+     return self.class.all << song.save
      #binding.pry
      
    end
