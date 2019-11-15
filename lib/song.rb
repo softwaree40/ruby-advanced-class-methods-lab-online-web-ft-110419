@@ -40,7 +40,7 @@ class Song
        
      end
      def self.find_or_create_by_name(name)
-       if self.create_by_name == self.find_by_name  #invoke method to check if they are equal or not 
+       if self.create_by_name(name) == self.find_by_name(name)  #invoke method to check if they are equal or not 
          return true 
        else
          false
