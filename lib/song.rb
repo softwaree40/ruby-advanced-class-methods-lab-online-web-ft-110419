@@ -46,6 +46,6 @@ class Song
        return true 
     end
     blank_space = Song.new 
-    blank.name = name
-    blank.name
+    blank_space.name = name
+    blank_space.name
  end
