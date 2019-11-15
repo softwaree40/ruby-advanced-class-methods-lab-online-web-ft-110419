@@ -35,6 +35,9 @@ class Song
      #binding.pry
      
    end
+     def find_by_name
+       @@all.find {|song| song.name = name }
+     end
     
    
 end
