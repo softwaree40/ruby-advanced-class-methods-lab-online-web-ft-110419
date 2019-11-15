@@ -44,6 +44,7 @@ class Song
          return true 
        else
          false
+       end
      end
     
    
