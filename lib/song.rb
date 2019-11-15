@@ -48,6 +48,6 @@ class Song
     blank_space = Song.new 
     blank_space.name = name
     blank_space.name
-    return blank_space
+    blank_space
     #binding.pry
  end
